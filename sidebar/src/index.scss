@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+:where(.css-dev-only-do-not-override-pr0fja).ant-drawer .ant-drawer-body {
+  flex: 1;
+  min-width: 0;
+  min-height: 0;
+  padding: 0;
+  overflow: auto;
+ 
+}
+.chatng{
+  background-color: black !important;
+  margin-top: 22%;
+}
+.settingbg{
+  background-color: #073B74 !important;
+  margin-top: 22%;
+}
